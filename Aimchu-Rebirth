@@ -3,7 +3,7 @@ local Library = {}
 
 function Library:GetColor(color, table)
     table = table or false
-    if (color.R == nil) then return Color3.fromRGB(19, 119, 255) end
+    if (color.R == nil) then return Color3.fromRGB(242, 116, 209) end
 
     local ColorRed = math.round(color.R * 255)
     local ColorGreen = math.round(color.G * 255)
